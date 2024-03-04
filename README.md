@@ -1,43 +1,48 @@
-# OneBusAway Developer Documentation
-
+# OneBusAway Developer
+<img src="src/images/oba-logo.png" alt="The CircuitVerse logo" width="736" height="320"/></br></br>
 Welcome to the GitHub project that powers the official [OneBusAway Developer Documentation](http://developer.onebusaway.org).
 
-# Improve the Documentation
+## Community
+We would love to hear from you! We communicate on Slack:
 
+[![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)]()
+
+
+# Improve the Documentation
 Want to help improve the documentation? Thank you! You can easily improve the official OneBusAway documentation by modifying the Markdown files that comprise it. We welcome any size of contribution, ranging from typos and corrected links, to brand-new tutorials.
 
-# Develop New Features/Fix Bugs
+# Setup
+See [`SETUP.md`](SETUP.md) for more information on setting up CircuitVerse.
 
-## Prerequisites
+## Contributing
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for more information on contributing to CircuitVerse.
 
-* [Ruby](https://www.ruby-lang.org/en/downloads/) >= 2.7
-* [Node](https://nodejs.org) >= 12
-* [Yarn](https://yarnpkg.com)
 
-## Install
 
-```sh
-git clone https://github.com/OneBusAway/onebusaway-docs.git
-cd onebusaway-docs
-bundle install && yarn install
-```
 
-## Development
 
-To start your site in development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/)!
 
-### Commands
 
-```sh
-# running locally
-bin/bridgetown start
+<img src="/app/assets/images/cvlogo.svg" alt="The CircuitVerse logo" width="736"/> </br></br>
+[![Financial Contributors on Open Collective](https://opencollective.com/CircuitVerse/all/badge.svg?label=Financial+Contributors&style=for-the-badge&logo=open+collective)](https://opencollective.com/CircuitVerse) 
+[![CircleCI Status](https://img.shields.io/circleci/build/github/CircuitVerse/CircuitVerse/master?label=circleci&style=for-the-badge&logo=circleci)](https://circleci.com/gh/CircuitVerse/CircuitVerse)
+[![Coveralls Coverage Status](https://img.shields.io/coveralls/github/CircuitVerse/CircuitVerse/master?label=coveralls&style=for-the-badge&logo=coveralls)](https://coveralls.io/github/CircuitVerse/CircuitVerse?branch=master)
+-----
+[CircuitVerse](https://circuitverse.org) is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the [Interactive Book](https://learn.circuitverse.org) which teaches users on the fundamentals of modern, digital circuits. Please also see our [documentation](https://docs.circuitverse.org) or [GitHub Wiki](https://github.com/CircuitVerse/CircuitVerse/wiki/).
 
-# load the site up within a Ruby console (IRB)
-bin/bridgetown console
-```
+## Community
+We would love to hear from you! We communicate on Slack:
 
-> Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
+[![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)](https://join.slack.com/t/circuitverse-team/shared_invite/zt-p6bgler9-~8vWvsKmL9lZeYg4pP9hwQ)
 
-## Deployment
+## Code of Conduct
+We follow the [Code of Conduct](code-of-conduct.md) of the [CircuitVerse](https://circuitverse.org) Community.
 
-The website built from this project is deployed automatically to a static hosting service on [Render](https://www.render.com). Please contact the maintainers with any questions.
+## Setup
+See [`SETUP.md`](SETUP.md) for more information on setting up CircuitVerse.
+
+## Contributing
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for more information on contributing to CircuitVerse.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
