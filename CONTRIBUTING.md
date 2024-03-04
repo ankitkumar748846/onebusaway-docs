@@ -3,7 +3,7 @@
 -  All discussions about this project must be respectful and harassment-free.
 - Remember that communication is the lifeblood of any Open Source project. We are all working on this together, and we are all benefiting from this software.
 - It's very easy to misunderstand one another in asynchronous, text-based conversations. When in doubt, assume everyone has the best intentions.
-- If you feel anyone has violated our Code of Conduct, you should anonymously contact the team with our abuse report form via [Slack](), necessary action will be taken by the team.
+- If you feel anyone has violated our Code of Conduct, you should anonymously contact the team with our abuse report form via [Slack](https://onebusaway.slack.com/ssb/redirect), necessary action will be taken by the team.
 
 ## Issue label
 
@@ -80,7 +80,11 @@ See the [README](README.md) for more information on communication channels.
 ### Code Contributors
 
 This project exists because of all the people who have [contributed](CONTRIBUTING.md).
-<a href="https://github.com/OneBusAway/onebusaway-docs/graphs/contributors"><img src="https://opencollective.com/CircuitVerse/contributors.svg?width=890&button=false" alt="Code contributors" /></a>
+
+<a href="https://github.com/OneBusAway/onebusaway-docs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OneBusAway/onebusaway-docs" />
+</a>
+
 
 ## The bottom line
 

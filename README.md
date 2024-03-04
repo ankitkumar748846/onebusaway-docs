@@ -5,7 +5,7 @@ Welcome to the GitHub project that powers the official [OneBusAway Developer Doc
 ## Community
 We would love to hear from you! We communicate on Slack:
 
-[![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)]()
+[![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)](https://onebusaway.slack.com/ssb/redirect)
 
 
 # Improve the Documentation
