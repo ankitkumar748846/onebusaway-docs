@@ -7,6 +7,10 @@
         "agency": {
             "description": "get details for a specific agency"
         },
+        "config.json": {
+            "description": "get details for a specific config json"
+        },
+
 
         "arrival-and-departure-for-stop": {
             "description": "details about a specific arrival/departure at a stop"
@@ -112,7 +116,7 @@
     "elements": {
         "agency": {},
         "arrival-and-departure": {
-            "name": "arrivalAndDeparture"
+            "name": "arrivalDeparture"
         },
         "block-configuration": {
             "name": "blockConfiguration"
