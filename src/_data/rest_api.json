@@ -116,7 +116,7 @@
     "elements": {
         "agency": {},
         "arrival-and-departure": {
-            "name": "arrivalDeparture"
+            "name": "arrivalAndDeparture"
         },
         "block-configuration": {
             "name": "blockConfiguration"
