@@ -11,26 +11,66 @@ Returns a list of all transit agencies currently supported by OneBusAway along w
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="listWithReferences">
-        <references>...</references>
-        <list>
-          <agencyWithCoverage>
-            <agencyId>3</agencyId>
-            <lat>47.21278384769539</lat>
-            <lon>-122.45624875362905</lon>
-            <latSpan>0.3559410000000014</latSpan>
-            <lonSpan>0.9080050000000028</lonSpan>
-          </agencyWithCoverage>
-          <agencyWithCoverage>...</agencyWithCoverage>
-       </list>
-        <limitExceeded>false</limitExceeded>
-      </data>
-    </response>
+   ```
+       {
+"code": 200,
+"currentTime": 1710416837484,
+"data": {
+"limitExceeded": false,
+"list": [
+{
+"agencyId": "1",
+"lat": 47.53009,
+"latSpan": 0.6819459999999964,
+"lon": -122.1462285,
+"lonSpan": 0.7207869999999872
+},
+{
+"agencyId": "96",
+"lat": 47.616654499999996,
+"latSpan": 0.009216999999999587,
+"lon": -122.3434575,
+"lonSpan": 0.012994999999989432
+},
+],
+"references": {
+"agencies": [
+{
+"disclaimer": "",
+"email": "",
+"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
+"id": "1",
+"lang": "EN",
+"name": "Metro Transit",
+"phone": "206-553-3000",
+"privateService": false,
+"timezone": "America/Los_Angeles",
+"url": "https://kingcounty.gov/en/dept/metro"
+},
+{
+"disclaimer": "",
+"email": "",
+"fareUrl": "https://www.seattle.gov/transportation/getting-around/transit/streetcar/fares-and-orca-card",
+"id": "23",
+"lang": "EN",
+"name": "City of Seattle",
+"phone": "206-684-7623",
+"privateService": false,
+"timezone": "America/Los_Angeles",
+"url": "https://www.seattle.gov/transportation/getting-around/transit/streetcar"
+},
+],
+"routes": [],
+"situations": [],
+"stopTimes": [],
+"stops": [],
+"trips": []
+}
+},
+"text": "OK",
+"version": 2
+}
+   ```
 
 ## Response
 

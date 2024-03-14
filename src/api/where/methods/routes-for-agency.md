@@ -11,27 +11,64 @@ Retrieve the list of all routes for a particular agency by id
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="listWithReferences">
-        <references/>
-        <list>
-          <route>
-            <id>1_1</id>
-            <shortName>1</shortName>
-            <description>kinnear</description>
-            <type>3</type>
-            <url>http://metro.kingcounty.gov/tops/bus/schedules/s001_0_.html</url>
-            <agencyId>1</agencyId>
-          </route>
-          ...
-        </list>
-        <limitExceeded>false</limitExceeded>
-      </data>
-    </response>
+   ```
+   {
+"code": 200,
+"currentTime": 1710420408652,
+"data": {
+"limitExceeded": false,
+"list": [
+{
+"agencyId": "1",
+"color": "",
+"description": "Auburn Station - White River Junction",
+"id": "1_102718",
+"longName": "",
+"nullSafeShortName": "184",
+"shortName": "184",
+"textColor": "",
+"type": 3,
+"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/184.html"
+},
+{
+"agencyId": "1",
+"color": "",
+"description": "Education Hill - Crossroads - Eastgate",
+"id": "1_100113",
+"longName": "",
+"nullSafeShortName": "221",
+"shortName": "221",
+"textColor": "",
+"type": 3,
+"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/221.html"
+},
+],
+"references": {
+"agencies": [
+{
+"disclaimer": "",
+"email": "",
+"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
+"id": "1",
+"lang": "EN",
+"name": "Metro Transit",
+"phone": "206-553-3000",
+"privateService": false,
+"timezone": "America/Los_Angeles",
+"url": "https://kingcounty.gov/en/dept/metro"
+}
+],
+"routes": [],
+"situations": [],
+"stopTimes": [],
+"stops": [],
+"trips": []
+}
+},
+"text": "OK",
+"version": 2
+}
+   ```
 
 ## Request Parameters
 

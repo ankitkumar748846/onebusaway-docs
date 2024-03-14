@@ -11,20 +11,53 @@ Search for routes near a specific location, optionally by name
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="listWithReferences">
-        <references>...</references>
-        <list>
-          <route>...</route>
-          <!-- More routes -->
-        </list>
-        <limitExceeded>true</limitExceeded>
-      </data>
-    </response>
+```
+    {
+"code": 200,
+"currentTime": 1710420657434,
+"data": {
+"limitExceeded": true,
+"list": [
+{
+"agencyId": "1",
+"color": "",
+"description": "Totem Lake TC-Kirkand TC-UW Link Sta-Univ Dist",
+"id": "1_100146",
+"longName": "",
+"nullSafeShortName": "255",
+"shortName": "255",
+"textColor": "",
+"type": 3,
+"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/255.html"
+},
+],
+"outOfRange": false,
+"references": {
+"agencies": [
+{
+"disclaimer": "",
+"email": "",
+"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
+"id": "1",
+"lang": "EN",
+"name": "Metro Transit",
+"phone": "206-553-3000",
+"privateService": false,
+"timezone": "America/Los_Angeles",
+"url": "https://kingcounty.gov/en/dept/metro"
+},
+],
+"routes": [],
+"situations": [],
+"stopTimes": [],
+"stops": [],
+"trips": []
+}
+},
+"text": "OK",
+"version": 2
+}
+```
 
 ## Request Parameters
 

@@ -11,48 +11,118 @@ Retrieve the full schedule for a stop on a particular day
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="entryWithReferences">
-        <references>...</references>
-        <entry class="stopSchedule">
-          <date>1270623339481</date>
-          <stopId>1_75403</stopId>
-          <stopRouteSchedules>
-            <stopRouteSchedule>
-              <routeId>1_31</routeId>
-              <stopRouteDirectionSchedules>
-                <stopRouteDirectionSchedule>
-                  <tripHeadsign>Central Magnolia</tripHeadsign>
-                  <scheduleStopTimes>
-                    <scheduleStopTime>
-                      <arrivalTime>1270559769000</arrivalTime>
-                      <departureTime>1270559769000</departureTime>
-                      <serviceId>1_114-WEEK</serviceId>
-                      <tripId>1_11893408</tripId>
-                    </scheduleStopTime>
-                    <!-- More schduleStopTime entries... -->
-                  </scheduleStopTimes>
-                </stopRouteDirectionSchedule>
-              </stopRouteDirectionSchedules>
-              <!-- More stopRouteDirectionSchedule entries -->
-            </stopRouteSchedule>
-            <!-- More stopRouteSchedule entries -->
-          </stopRouteSchedules>
-          <timeZone>America/Los_Angeles</timeZone>
-          <stopCalendarDays>
-            <stopCalendarDay>
-              <date>1276239600000</date>
-              <group>1</group>
-              </stopCalendarDay>
-            <!-- More stopCalendarDay entries -->
-          </stopCalendarDays>
-        </entry>
-      </data>
-    </response>
+   ```
+   {
+"code": 200,
+"currentTime": 1710421195742,
+"data": {
+"entry": {
+"date": 1710421195737,
+"stopId": "1_75403",
+"stopRouteSchedules": [
+{
+"routeId": "1_100225",
+"stopRouteDirectionSchedules": [
+{
+"scheduleFrequencies": [],
+"scheduleStopTimes": [
+{
+"arrivalEnabled": true,
+"arrivalTime": 1710419340000,
+"departureEnabled": true,
+"departureTime": 1710419340000,
+"serviceId": "1_45626",
+"stopHeadsign": "",
+"tripId": "1_561353825"
+},
+],
+"tripHeadsign": "Loyal Heights Greenwood"
+}
+]
+},
+{
+"routeId": "1_100259",
+"stopRouteDirectionSchedules": [
+{
+"scheduleFrequencies": [],
+"scheduleStopTimes": [
+{
+"arrivalEnabled": true,
+"arrivalTime": 1710428700000,
+"departureEnabled": true,
+"departureTime": 1710428700000,
+"serviceId": "1_45626",
+"stopHeadsign": "",
+"tripId": "1_604670985"
+},
+],
+"tripHeadsign": "U-District Station Lake City"
+}
+]
+}
+]
+},
+"references": {
+"agencies": [
+{
+"disclaimer": "",
+"email": "",
+"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
+"id": "1",
+"lang": "EN",
+"name": "Metro Transit",
+"phone": "206-553-3000",
+"privateService": false,
+"timezone": "America/Los_Angeles",
+"url": "https://kingcounty.gov/en/dept/metro"
+}
+],
+"routes": [
+{
+"agencyId": "1",
+"color": "",
+"description": "Loyal Heights - University District",
+"id": "1_100225",
+"longName": "",
+"nullSafeShortName": "45",
+"shortName": "45",
+"textColor": "",
+"type": 3,
+"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/045.html"
+},
+],
+"situations": [],
+"stopTimes": [],
+"stops": [
+{
+"code": "75403",
+"direction": "SW",
+"id": "1_75403",
+"lat": 47.654503,
+"locationType": 0,
+"lon": -122.30513,
+"name": "East Stevens Way NE & Benton Ln",
+"parent": "",
+"routeIds": [
+"1_100225",
+"1_100259",
+"1_100214"
+],
+"staticRouteIds": [
+"1_100225",
+"1_100259",
+"1_100214"
+],
+"wheelchairBoarding": "ACCESSIBLE"
+}
+],
+"trips": []
+}
+},
+"text": "OK",
+"version": 2
+}
+   ```
 
 ## Request Parameters
 

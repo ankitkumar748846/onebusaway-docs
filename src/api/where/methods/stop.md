@@ -11,28 +11,67 @@ Retrieve info for a specific stop by id
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="entryWithReferences">
-        <references>...</references>
-        <entry class="stop">
-          <id>1_75403</id>
-          <lat>47.6543655</lat>
-          <lon>-122.305206</lon>
-          <direction>S</direction>
-          <name>Stevens Way &amp; BENTON LANE</name>
-          <code>75403</code>
-          <locationType>0</locationType>
-          <routeIds>
-            <string>1_31</string>
-            <string>...</string>
-          </routeIds>
-        </entry>
-      </data>
-    </response>
+```
+   {
+"code": 200,
+"currentTime": 1710421832071,
+"data": {
+"entry": {
+"code": "75403",
+"direction": "SW",
+"id": "1_75403",
+"lat": 47.654503,
+"locationType": 0,
+"lon": -122.30513,
+"name": "East Stevens Way NE & Benton Ln",
+"parent": "",
+"routeIds": [
+"1_100225",
+],
+"staticRouteIds": [
+"1_100225",
+],
+"wheelchairBoarding": "ACCESSIBLE"
+},
+"references": {
+"agencies": [
+{
+"disclaimer": "",
+"email": "",
+"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
+"id": "1",
+"lang": "EN",
+"name": "Metro Transit",
+"phone": "206-553-3000",
+"privateService": false,
+"timezone": "America/Los_Angeles",
+"url": "https://kingcounty.gov/en/dept/metro"
+}
+],
+"routes": [
+{
+"agencyId": "1",
+"color": "",
+"description": "Loyal Heights - University District",
+"id": "1_100225",
+"longName": "",
+"nullSafeShortName": "45",
+"shortName": "45",
+"textColor": "",
+"type": 3,
+"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/045.html"
+},
+],
+"situations": [],
+"stopTimes": [],
+"stops": [],
+"trips": []
+}
+},
+"text": "OK",
+"version": 2
+}
+```
 
 ## Request Parameters
 
