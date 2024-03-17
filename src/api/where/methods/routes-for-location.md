@@ -12,25 +12,12 @@ Search for routes near a specific location, optionally by name
 ## Sample Response
 
 ```
-    {
+{
 "code": 200,
-"currentTime": 1710420657434,
+"currentTime": 1710684911089,
 "data": {
 "limitExceeded": true,
-"list": [
-{
-"agencyId": "1",
-"color": "",
-"description": "Totem Lake TC-Kirkand TC-UW Link Sta-Univ Dist",
-"id": "1_100146",
-"longName": "",
-"nullSafeShortName": "255",
-"shortName": "255",
-"textColor": "",
-"type": 3,
-"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/255.html"
-},
-],
+"list": [],
 "outOfRange": false,
 "references": {
 "agencies": [
@@ -46,6 +33,7 @@ Search for routes near a specific location, optionally by name
 "timezone": "America/Los_Angeles",
 "url": "https://kingcounty.gov/en/dept/metro"
 },
+{}
 ],
 "routes": [],
 "situations": [],

@@ -12,9 +12,9 @@ Retrieve info for a specific stop by id
 ## Sample Response
 
 ```
-   {
+{
 "code": 200,
-"currentTime": 1710421832071,
+"currentTime": 1710685450792,
 "data": {
 "entry": {
 "code": "75403",
@@ -27,41 +27,19 @@ Retrieve info for a specific stop by id
 "parent": "",
 "routeIds": [
 "1_100225",
+"1_100259",
+"1_100214"
 ],
 "staticRouteIds": [
 "1_100225",
+"1_100259",
+"1_100214"
 ],
 "wheelchairBoarding": "ACCESSIBLE"
 },
 "references": {
-"agencies": [
-{
-"disclaimer": "",
-"email": "",
-"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
-"id": "1",
-"lang": "EN",
-"name": "Metro Transit",
-"phone": "206-553-3000",
-"privateService": false,
-"timezone": "America/Los_Angeles",
-"url": "https://kingcounty.gov/en/dept/metro"
-}
-],
-"routes": [
-{
-"agencyId": "1",
-"color": "",
-"description": "Loyal Heights - University District",
-"id": "1_100225",
-"longName": "",
-"nullSafeShortName": "45",
-"shortName": "45",
-"textColor": "",
-"type": 3,
-"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/045.html"
-},
-],
+"agencies": [],
+"routes": [],
 "situations": [],
 "stopTimes": [],
 "stops": [],

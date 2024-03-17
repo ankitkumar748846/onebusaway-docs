@@ -12,18 +12,12 @@ Retrieve the list of all stops for a particular agency by id
 ## Sample Response
 
 ```
-    {
+{
 "code": 200,
-"currentTime": 1710421734226,
+"currentTime": 1710685368700,
 "data": {
 "limitExceeded": false,
-"list": [
-"40_S_KE_SB",
-"40_E21-T1",
-"40_E21-T2",
-"40_SS08",
-"40_99610"
-],
+"list": [],
 "references": {
 "agencies": [],
 "routes": [],

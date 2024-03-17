@@ -14,110 +14,14 @@ Retrieve the full schedule for a stop on a particular day
    ```
    {
 "code": 200,
-"currentTime": 1710421195742,
+"currentTime": 1710685203697,
 "data": {
 "entry": {
-"date": 1710421195737,
+"date": 1710685203692,
 "stopId": "1_75403",
-"stopRouteSchedules": [
-{
-"routeId": "1_100225",
-"stopRouteDirectionSchedules": [
-{
-"scheduleFrequencies": [],
-"scheduleStopTimes": [
-{
-"arrivalEnabled": true,
-"arrivalTime": 1710419340000,
-"departureEnabled": true,
-"departureTime": 1710419340000,
-"serviceId": "1_45626",
-"stopHeadsign": "",
-"tripId": "1_561353825"
+"stopRouteSchedules": []
 },
-],
-"tripHeadsign": "Loyal Heights Greenwood"
-}
-]
-},
-{
-"routeId": "1_100259",
-"stopRouteDirectionSchedules": [
-{
-"scheduleFrequencies": [],
-"scheduleStopTimes": [
-{
-"arrivalEnabled": true,
-"arrivalTime": 1710428700000,
-"departureEnabled": true,
-"departureTime": 1710428700000,
-"serviceId": "1_45626",
-"stopHeadsign": "",
-"tripId": "1_604670985"
-},
-],
-"tripHeadsign": "U-District Station Lake City"
-}
-]
-}
-]
-},
-"references": {
-"agencies": [
-{
-"disclaimer": "",
-"email": "",
-"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
-"id": "1",
-"lang": "EN",
-"name": "Metro Transit",
-"phone": "206-553-3000",
-"privateService": false,
-"timezone": "America/Los_Angeles",
-"url": "https://kingcounty.gov/en/dept/metro"
-}
-],
-"routes": [
-{
-"agencyId": "1",
-"color": "",
-"description": "Loyal Heights - University District",
-"id": "1_100225",
-"longName": "",
-"nullSafeShortName": "45",
-"shortName": "45",
-"textColor": "",
-"type": 3,
-"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/045.html"
-},
-],
-"situations": [],
-"stopTimes": [],
-"stops": [
-{
-"code": "75403",
-"direction": "SW",
-"id": "1_75403",
-"lat": 47.654503,
-"locationType": 0,
-"lon": -122.30513,
-"name": "East Stevens Way NE & Benton Ln",
-"parent": "",
-"routeIds": [
-"1_100225",
-"1_100259",
-"1_100214"
-],
-"staticRouteIds": [
-"1_100225",
-"1_100259",
-"1_100214"
-],
-"wheelchairBoarding": "ACCESSIBLE"
-}
-],
-"trips": []
-}
+"references": {}
 },
 "text": "OK",
 "version": 2

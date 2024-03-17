@@ -12,9 +12,9 @@ Retrieve a shape (the path traveled by a transit vehicle) by id
 ## Sample Response
 
 ```
-    {
+{
 "code": 200,
-"currentTime": 1710421621458,
+"currentTime": 1710685300528,
 "data": {
 "entry": {
 "length": 347,

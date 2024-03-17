@@ -14,35 +14,10 @@ Retrieve the list of all routes for a particular agency by id
    ```
    {
 "code": 200,
-"currentTime": 1710420408652,
+"currentTime": 1710684835418,
 "data": {
 "limitExceeded": false,
-"list": [
-{
-"agencyId": "1",
-"color": "",
-"description": "Auburn Station - White River Junction",
-"id": "1_102718",
-"longName": "",
-"nullSafeShortName": "184",
-"shortName": "184",
-"textColor": "",
-"type": 3,
-"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/184.html"
-},
-{
-"agencyId": "1",
-"color": "",
-"description": "Education Hill - Crossroads - Eastgate",
-"id": "1_100113",
-"longName": "",
-"nullSafeShortName": "221",
-"shortName": "221",
-"textColor": "",
-"type": 3,
-"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/221.html"
-},
-],
+"list": [],
 "references": {
 "agencies": [
 {

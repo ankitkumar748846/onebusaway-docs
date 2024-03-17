@@ -14,112 +14,20 @@ Retrieve the set of stops serving a particular route, including groups by direct
  ```
  {
 "code": 200,
-"currentTime": 1710422696583,
+"currentTime": 1710685582525,
 "data": {
 "entry": {
-"polylines": [
-{
-"length": 216,
-"levels": "",
-"points": "qc}aHp|`jVrA?e@cJAIEa@Mc@ISsBkEO[IYGYEWAYAc@@}E?m@AmOAoO?sF?kE?wB?q@?sG?cE?oA?yA?yD@eH?sO?kA@qL?U?OAeF?yH?}@?oJ?gN?_C?yAAwE?oCAq@?U?e@?]@]@QBMDIFMDKJGHKhBsAbCkBJIHGr@e@xAs@rBgAhB}@TM^[`@_@BA\\_@r@y@X_@nCaD`@i@BERSLQ\\e@Zm@~@oBTc@L[Xw@DM@KDSDSDUB[@M?S@c@?{@?_D?eA?sD?wF?aH?}A@kA?SHm@B[D]@Y@e@?k@?o@Ei@?[?S@}@@kAA[ASCM?UEq@As@Ag@A{D@MBMDQJYl@yARc@P_@Pe@Ri@@qD?aB?gE?yG?M?_B?Y?mD?_A?yD?s@?wC?u@?_@?}F@kF?mF?_A@mD?mF?oC@iE@sD?a@?sE?wE?oD@w@@}D?a@?yD@eC?kA?g@@uB?i@?gA?yC?eA@_@?g@?eA@qB?qB@uB?qB?uB?k@?cA@qB?yB|@?dC?bBDpABtE@hHFlABh@?n@?~B?dBBL?fCDjBBZ?PBJFJJLHX\\bB{DdAkCFStCgH|@eC`@iA`A_CISCM?M?MBo@@W?QB[?e@?_@AS"
-},
-],
+"polylines": [],
 "routeId": "1_100224",
-"stopGroupings": [
-{
-"ordered": true,
-"stopGroups": [
-{
-"id": "0",
-"name": {
-"name": "Ballard Wallingford",
-"names": [
-"Ballard Wallingford"
-],
-"type": "destination"
-},
-],
-"stopIds": [
-"1_18085",
-"1_18090",
-],
-"subGroups": []
-}
-],
-"type": "direction"
-}
-],
-"stopIds": [
-"1_10911",
-"1_75407",
-"1_9587"
-]
+"stopGroupings": [],
+"stopIds": []
 },
 "references": {
-"agencies": [
-{
-"disclaimer": "",
-"email": "",
-"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
-"id": "1",
-"lang": "EN",
-"name": "Metro Transit",
-"phone": "206-553-3000",
-"privateService": false,
-"timezone": "America/Los_Angeles",
-"url": "https://kingcounty.gov/en/dept/metro"
-},
-{
-"disclaimer": "",
-"email": "main@soundtransit.org",
-"fareUrl": "https://www.soundtransit.org/ride-with-us/how-to-pay/fares",
-"id": "40",
-"lang": "en",
-"name": "Sound Transit",
-"phone": "1-888-889-6368",
-"privateService": false,
-"timezone": "America/Los_Angeles",
-"url": "https://www.soundtransit.org"
-}
-],
-"routes": [
-{
-"agencyId": "1",
-"color": "",
-"description": "Ballard - Montlake",
-"id": "1_100224",
-"longName": "",
-"nullSafeShortName": "44",
-"shortName": "44",
-"textColor": "",
-"type": 3,
-"url": "https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/044.html"
-},
-],
+"agencies": [],
+"routes": [],
 "situations": [],
 "stopTimes": [],
-"stops": [
-{
-"code": "10911",
-"direction": "E",
-"id": "1_10911",
-"lat": 47.661205,
-"locationType": 0,
-"lon": -122.313477,
-"name": "U District Station - Bay 3",
-"parent": "",
-"routeIds": [
-"1_102730",
-"40_586"
-],
-"staticRouteIds": [
-"1_102730",
-"1_100184",
-"40_586"
-],
-"wheelchairBoarding": "ACCESSIBLE"
-},
-],
+"stops": [],
 "trips": []
 }
 },
