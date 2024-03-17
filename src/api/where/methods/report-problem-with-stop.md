@@ -10,19 +10,19 @@ problem reporting admin interface.
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/report-problem-with-stop/1_75403.xml?key=TEST&amp;code=stop_name_wrong
+[http://api.pugetsound.onebusaway.org/api/where/report-problem-with-stop/1_75403.json?key=TEST&amp;code=stop_name_wrong](http://api.pugetsound.onebusaway.org/api/where/report-problem-with-stop/1_75403.json?key=TEST&amp;code=stop_name_wrong)
 
 ## Sample Response
 
-~~~~
-<response>
-  <version>2</version>
-  <code>200</code>
-  <currentTime>1318879898047</currentTime>
-  <text>OK</text>
-  <data/>
-</response>
-~~~~
+```
+{
+"code": 200,
+"currentTime": 1710420025052,
+"data": {},
+"text": "OK",
+"version": 2
+}
+```
 
 ## Request Parameters
 

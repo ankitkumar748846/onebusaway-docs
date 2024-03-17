@@ -8,28 +8,18 @@ Get details of a specific trip by id
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/trip/1_12540399.xml?key=TEST
+[http://api.pugetsound.onebusaway.org/api/where/trip/1_12540399.json?key=TEST](http://api.pugetsound.onebusaway.org/api/where/trip/1_12540399.json?key=TEST)
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="entryWithReferences">
-        <references>...</references>
-        <entry class="trip">
-          <id>1_12540399</id>
-          <routeId>1_44</routeId>
-          <tripShortName>LOCAL</tripShortName>
-          <tripHeadsign>Downtown via University District</tripHeadsign>
-          <serviceId>1_114-115-WEEK</serviceId>
-          <shapeId>1_20044006</shapeId>
-          <directionId>1</directionId>
-        </entry>
-      </data>
-    </response>
+```
+    {
+"code": 429,
+"currentTime": 1710424569201,
+"text": "rate limit exceeded",
+"version": 1
+}
+```
 
 ## Request Parameters
 

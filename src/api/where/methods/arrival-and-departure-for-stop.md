@@ -7,24 +7,20 @@ Get info about a single arrival and departure for a stop
 
 ## Sample Requests
 
-http://api.pugetsound.onebusaway.org/api/where/arrival-and-departure-for-stop/1_75403.xml?key=TEST&amp;tripId=1_15551341&amp;serviceDate=1291536000000&amp;vehicleId=1_3521&amp;stopSequence=42
+[http://api.pugetsound.onebusaway.org/api/where/arrival-and-departure-for-stop/1_75403.json?key=TEST&amp;tripId=1_15551341&amp;serviceDate=1291536000000&amp;vehicleId=1_3521&amp;stopSequence=42](http://api.pugetsound.onebusaway.org/api/where/arrival-and-departure-for-stop/1_75403.json?key=TEST&amp;tripId=1_15551341&amp;serviceDate=1291536000000&amp;vehicleId=1_3521&amp;stopSequence=42)
 
-http://api.pugetsound.onebusaway.org/api/where/arrival-and-departure-for-stop/1_75403.xml?key=TEST&tripId=1_47634632&serviceDate=1590476400000
+[http://api.pugetsound.onebusaway.org/api/where/arrival-and-departure-for-stop/1_75403.json?key=TEST&tripId=1_47634632&serviceDate=1590476400000](http://api.pugetsound.onebusaway.org/api/where/arrival-and-departure-for-stop/1_75403.json?key=TEST&tripId=1_47634632&serviceDate=1590476400000)
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="entryWithReferences">
-        <references>...</references>
-        <entry class="arrivalAndDeparture">
-          <!-- See documentation for the arrivalAndDeparture element, linked below -->
-        </entry>
-      </data>
-    </response>
+   ```
+   {
+"code": 429,
+"currentTime": 1710417466890,
+"text": "rate limit exceeded",
+"version": 1
+}
+   ```
 
 ## Request Parameters
 

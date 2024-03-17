@@ -8,29 +8,18 @@ Get extended trip details for a specific transit vehicle.  That is, given a vehi
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/trip-for-vehicle/1_4210.xml?key=TEST
+[http://api.pugetsound.onebusaway.org/api/where/trip-for-vehicle/1_4210.json?key=TEST](http://api.pugetsound.onebusaway.org/api/where/trip-for-vehicle/1_4210.json?key=TEST)
 
 ## Sample Response
 
-~~~
-<response>
-  <version>2</version>
-  <code>200</code>
-  <text>OK</text>
-  <currentTime>1270614730908</currentTime>
-  <data class="entryWithReferences">
-    <references>...</references>
-    <entry class="tripDetails">
-      <tripId>1_12540399</tripId>
-      <serviceDate>1271401200000</serviceDate>
-      <frequency>...</frequency>
-      <status>...</status>
-      <schedule>...</schedule>
-      <tripId>1_15456175</tripId>
-    </entry>
-  </data>
-</response>
-~~~
+```
+{
+"code": 429,
+"currentTime": 1710424500342,
+"text": "rate limit exceeded",
+"version": 1
+}
+```
 
 ## Request Parameters
 

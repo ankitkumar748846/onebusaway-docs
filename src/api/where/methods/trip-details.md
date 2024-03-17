@@ -7,28 +7,18 @@ Get extended details for a specific trip
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/trip-details/1_47805860.xml?key=TEST
+[http://api.pugetsound.onebusaway.org/api/where/trip-details/1_47805860.json?key=TEST](http://api.pugetsound.onebusaway.org/api/where/trip-details/1_47805860.json?key=TEST)
 
 ## Sample Response
 
-~~~
-<response>
-  <version>2</version>
-  <code>200</code>
-  <text>OK</text>
-  <currentTime>1270614730908</currentTime>
-  <data class="entryWithReferences">
-    <references>...</references>
-    <entry class="tripDetails">
-      <tripId>1_12540399</tripId>
-      <serviceDate>1271401200000</serviceDate>
-      <frequency>...</frequency>
-      <status>...</status>
-      <schedule>...</schedule>
-    </entry>
-  </data>
-</response>
-~~~
+```
+{
+"code": 429,
+"currentTime": 1710424420037,
+"text": "rate limit exceeded",
+"version": 1
+}
+```
 
 ## Request Parameters
 

@@ -7,24 +7,45 @@ Search for routes near a specific location, optionally by name
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/routes-for-location.xml?key=TEST&amp;lat=47.653435&amp;lon=-122.305641
+[http://api.pugetsound.onebusaway.org/api/where/routes-for-location.json?key=TEST&amp;lat=47.653435&amp;lon=-122.305641](http://api.pugetsound.onebusaway.org/api/where/routes-for-location.json?key=TEST&amp;lat=47.653435&amp;lon=-122.305641)
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="listWithReferences">
-        <references>...</references>
-        <list>
-          <route>...</route>
-          <!-- More routes -->
-        </list>
-        <limitExceeded>true</limitExceeded>
-      </data>
-    </response>
+```
+{
+"code": 200,
+"currentTime": 1710684911089,
+"data": {
+"limitExceeded": true,
+"list": [],
+"outOfRange": false,
+"references": {
+"agencies": [
+{
+"disclaimer": "",
+"email": "",
+"fareUrl": "https://kingcounty.gov/en/dept/metro/fares-and-payment/prices",
+"id": "1",
+"lang": "EN",
+"name": "Metro Transit",
+"phone": "206-553-3000",
+"privateService": false,
+"timezone": "America/Los_Angeles",
+"url": "https://kingcounty.gov/en/dept/metro"
+},
+{}
+],
+"routes": [],
+"situations": [],
+"stopTimes": [],
+"stops": [],
+"trips": []
+}
+},
+"text": "OK",
+"version": 2
+}
+```
 
 ## Request Parameters
 

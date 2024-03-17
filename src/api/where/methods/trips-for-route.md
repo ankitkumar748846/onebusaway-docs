@@ -7,27 +7,24 @@ Search for active trips for a specific route.
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/trips-for-route/1_100224.xml?key=TEST
+[http://api.pugetsound.onebusaway.org/api/where/trips-for-route/1_100224.json?key=TEST](http://api.pugetsound.onebusaway.org/api/where/trips-for-route/1_100224.json?key=TEST)
 
 ## Sample Response
 
-~~~
-<response>
-  <version>2</version>
-  <code>200</code>
-  <text>OK</text>
-  <currentTime>1270614730908</currentTime>
-  <data class="listWithReferences">
-    <references>...</references>
-    <list>
-      <tripDetails>...</tripDetails>
-      <tripDetails>...</tripDetails>
-      ...
-    </list>
-    <limitExceeded>false</limitExceeded>
-  </data>
-</response>
-~~~
+```
+{
+"code": 200,
+"currentTime": 1710684080565,
+"data": {
+"limitExceeded": false,
+"list": [],
+"outOfRange": false,
+"references": {}
+},
+"text": "OK",
+"version": 2
+}
+```
 
 ## Request Parameters
 

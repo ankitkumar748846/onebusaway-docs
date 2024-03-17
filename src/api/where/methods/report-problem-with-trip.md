@@ -10,19 +10,19 @@ problem reporting admin interface.
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/report-problem-with-trip/1_79430293.xml?key=TEST&amp;serviceDate=1291536000000&amp;vehicleId=1_3521&amp;stopId=1_75403&amp;code=vehicle_never_came
+[http://api.pugetsound.onebusaway.org/api/where/report-problem-with-trip/1_79430293.json?key=TEST&amp;serviceDate=1291536000000&amp;vehicleId=1_3521&amp;stopId=1_75403&amp;code=vehicle_never_came](http://api.pugetsound.onebusaway.org/api/where/report-problem-with-trip/1_79430293.json?key=TEST&amp;serviceDate=1291536000000&amp;vehicleId=1_3521&amp;stopId=1_75403&amp;code=vehicle_never_came)
 
 ## Sample Response
 
-~~~~
-<response>
-  <version>2</version>
-  <code>200</code>
-  <currentTime>1318879898047</currentTime>
-  <text>OK</text>
-  <data/>
-</response>
-~~~~
+```
+{
+"code": 200,
+"currentTime": 1710420125879,
+"data": {},
+"text": "OK",
+"version": 2
+}
+```
 
 ## Request Parameters
 

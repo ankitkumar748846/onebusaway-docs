@@ -7,26 +7,30 @@ Retrieve the list of all stops for a particular agency by id
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/stop-ids-for-agency/40.xml?key=TEST
+[http://api.pugetsound.onebusaway.org/api/where/stop-ids-for-agency/40.json?key=TEST](http://api.pugetsound.onebusaway.org/api/where/stop-ids-for-agency/40.json?key=TEST)
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="listWithReferences">
-        <references/>
-        <list>
-          <string>40_C_1303</string>
-          <string>40_C_1305</string>
-          <string>40_C_1366</string>
-          <string>...</string>
-        </list>
-        <limitExceeded>false</limitExceeded>
-      </data>
-    </response>
+```
+{
+"code": 200,
+"currentTime": 1710685368700,
+"data": {
+"limitExceeded": false,
+"list": [],
+"references": {
+"agencies": [],
+"routes": [],
+"situations": [],
+"stopTimes": [],
+"stops": [],
+"trips": []
+}
+},
+"text": "OK",
+"version": 2
+}
+```
 
 ## Request Parameters
 

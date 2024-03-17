@@ -7,25 +7,31 @@ Search for stops near a specific location, optionally by stop code
 
 ## Sample Request
 
-http://api.pugetsound.onebusaway.org/api/where/stops-for-location.xml?key=TEST&amp;lat=47.653435&amp;lon=-122.305641
+[http://api.pugetsound.onebusaway.org/api/where/stops-for-location.json?key=TEST&amp;lat=47.653435&amp;lon=-122.305641](http://api.pugetsound.onebusaway.org/api/where/stops-for-location.json?key=TEST&amp;lat=47.653435&amp;lon=-122.305641)
 
 ## Sample Response
 
-    <response>
-      <version>2</version>
-      <code>200</code>
-      <text>OK</text>
-      <currentTime>1270614730908</currentTime>
-      <data class="listWithReferences">
-        <references>...</references>
-        <list>
-          <stop>...</stop>
-          <!-- More stops -->
-        </list>
-        <limitExceeded>true</limitExceeded>
-        <outOfRange>false</outOfRange>
-      </data>
-    </response>
+```
+{
+"code": 200,
+"currentTime": 1710685512435,
+"data": {
+"limitExceeded": false,
+"list": [],
+"outOfRange": false,
+"references": {
+"agencies": [],
+"routes": [],
+"situations": [],
+"stopTimes": [],
+"stops": [],
+"trips": []
+}
+},
+"text": "OK",
+"version": 2
+}
+```
 
 ## Request Parameters
 
